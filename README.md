@@ -18,3 +18,8 @@ and return React elements describing what should appear on the screen.
 
 HOC? Not recomended! => Hooks API!
 “Making Sense of React Hooks” by Dan Abramov
+
+
+
+
+1. 969df0e, 'Setting up the code'

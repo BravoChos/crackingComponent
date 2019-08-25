@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useMemo } from 'react'
+import React, { useState, useCallback, useMemo, Text } from 'react'
 import Input from './Input'
 import useInputState from './useInputState.js'
 import useWindowWidth from './useWindowWidth'
@@ -49,7 +49,7 @@ function JoinForm() {
       <button type="submit">가입하기</button>
       <button type="button" onClick={handleReset}>초기화</button>
       <div>
-        {windowWidth}
+        Window Width is : {windowWidth}
       </div>
     </form>
   )
