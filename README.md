@@ -15,3 +15,6 @@ then what is the component?
 
 Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called "props")
 and return React elements describing what should appear on the screen.
+
+HOC? Not recomended! => Hooks API!
+“Making Sense of React Hooks” by Dan Abramov
