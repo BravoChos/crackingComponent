@@ -2,6 +2,7 @@ Title: How to Make the component, the right way!!
 
 This is short term React Bootcamp by Hyunsub Lee 
 link: https://hyunseob.github.io
+source: https://hyunseob.github.io/2019/06/02/react-component-the-right-way/?fbclid=IwAR2xxKgBVKlmDdHEzNaTU-4DLfK_Vl6lNDBWjdjxra9daX2tjVWt23v38C0
 
 Writing Component the right way. Why is it so important?
 
@@ -23,3 +24,9 @@ HOC? Not recomended! => Hooks API!
 
 
 1. 969df0e, 'Setting up the code'
+
+2. 130cb680e82341669bc2e0c4ad8dc5aa2d357863 'uncontrolled ...'
+=> no state
+=> render component once
+
+source:https://stackblitz.com/edit/react-bootcamp-form?file=JoinForm.js
