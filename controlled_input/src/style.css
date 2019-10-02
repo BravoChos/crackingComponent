@@ -1,0 +1,54 @@
+html, body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+button {
+  padding: 0px 24px;
+  height: 58px;
+  line-height: 58px;
+
+  border: 0;
+  background-color: #3182f6;
+
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+
+  transition: background-color 0.2s ease;
+}
+
+button + button {
+  margin-left: 8px;
+}
+
+button:hover {
+  background-color: #1973f5;
+}
+
+button:active {
+  background-color: #4991f7;
+}
+
+input {
+  display: block;
+  height: 58px;
+  line-height: 58px;
+  background-color: #fafafc;
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  padding: 0 16px;
+  margin-bottom: 8px;
+
+  font-size: 18px;
+  outline: 0;
+
+  transition: border-color 0.2s ease;
+}
+
+input:focus {
+  border-color: #3182f6;
+}
+
+input::placeholder {
+  font-size: 18px;
+}
